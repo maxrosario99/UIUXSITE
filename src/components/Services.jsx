@@ -1,15 +1,15 @@
-import Section from "../Section";
-import Heading from "../Headings";
-import { service1, service2, service3, check } from "../../../public/assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../../constants";
+import Section from "./Section";
+import Heading from "./Headings";
+import Generating from "./Generating";
+import { service1, service2, service3, check } from "../../public/assets";
+import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
   VideoBar,
   VideoChatMessage,
-} from "./Services";
+} from "./design/Services";
 
-import Generating from "../Generating";
 
 const Services = () => {
   return (

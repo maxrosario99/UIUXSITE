@@ -1,13 +1,14 @@
-import React from 'react'
-import Button from "./components/Button"
-import Hero from './components/design/Hero'
-import Benefits from './components/design/Benefits'
-import Collaboration from './components/design/Collaboration'
+// import React from 'react'
+// import Button from "./components/Button"
+import Hero from './components/Hero'
+import Benefits from './components/Benefits'
+import Collaboration from './components/Collaboration'
 import Footer from './components/Footer'
-import Roadmap from './components/design/Roadmap'
-import Pricing from './components/design/Pricing'
-import Services from './components/design/Services'
+import Roadmap from './components/Roadmap'
+import Pricing from './components/Pricing'
+import Services from './components/Services'
 import ButtonGradient from "../public/assets/svg/ButtonGradient"
+import Header from './components/Header'
 const App = () => {
   return (
     <>
